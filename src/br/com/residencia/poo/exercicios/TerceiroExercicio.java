@@ -2,9 +2,10 @@ package br.com.residencia.poo.exercicios;
 import java.util.Scanner;
 public class TerceiroExercicio {
   public static void main(String[] args) {
-    try (Scanner ler = new Scanner(System.in)) {
-      String nome;
+    String nome;
       int idade;
+    try (Scanner ler = new Scanner(System.in)) {
+      
 
       System.out.printf("Qual é o seu nome?\n");
       nome = ler.nextLine();
@@ -13,8 +14,9 @@ public class TerceiroExercicio {
       System.out.printf("Qual é sua idade?\n");
       idade = ler.nextInt();
       
-      System.out.printf("Seu nome é " + nome + " e sua idade é " + idade);
+     
     }
+    System.out.printf("Seu nome é " + nome + " e sua idade é " + idade);
 
   }
 }

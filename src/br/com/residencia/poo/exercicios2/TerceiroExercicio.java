@@ -25,12 +25,7 @@ public class TerceiroExercicio {
 
     // It's just a way to make the program print a blank space between the user's input and the results
     // of the math operations.
-    System.out.println("\n");
-    System.out.println("\n");
-    System.out.println("\n");
-    System.out.println("\n");
-    System.out.println("\n");
-    System.out.println("\n");
+    
     System.out.println("\n");
     System.out.println("\n");
     System.out.println("\n");
