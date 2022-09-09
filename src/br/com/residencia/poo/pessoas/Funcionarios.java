@@ -1,9 +1,9 @@
 package br.com.residencia.poo.pessoas;
 
 public class Funcionarios {
-  private int cpf;
-  private String nome;
-  private Double salario; 
+  protected int cpf;
+  protected String nome;
+  protected Double salario; 
 
 
   
@@ -43,8 +43,8 @@ public class Funcionarios {
 
 
 
-  public Double bonificacao() {
-    return getSalario() * 0.5;
+  public Double getBonificacao() {
+    return this.salario * 0.15;
   }
 
 
