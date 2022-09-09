@@ -91,8 +91,8 @@ public class Balanco {
     }
 
     public int soma() {
-        System.out.println("A sua soma trimestral é " + this.soma);
-        return this.soma;
+        System.out.println("A sua soma trimestral é " + soma);
+        return soma;
     }
 
     public int soma(int gastosAbril, int gastosMaio, int gastosJunho) {
