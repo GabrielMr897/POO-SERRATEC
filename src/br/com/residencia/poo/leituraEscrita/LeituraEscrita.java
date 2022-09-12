@@ -35,7 +35,7 @@ public class LeituraEscrita {
     String nome = sc.next();
 
 
-    BufferedWriter buffWrite = new BufferedWriter(new FileWriter(PATH_BASICO + path));
+    BufferedWriter buffWrite = new BufferedWriter(new FileWriter(PATH_BASICO + path + EXTENSAO));
     String linha = "";
 
     System.out.println("Escreva algo ");
