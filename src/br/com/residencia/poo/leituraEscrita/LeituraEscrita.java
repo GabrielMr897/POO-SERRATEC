@@ -29,19 +29,20 @@ public class LeituraEscrita {
   }
 
 
-  public static void escritor (String path) throws IOException {
+  public static void escritor () throws IOException {
     Scanner sc = new Scanner(System.in);
     System.out.println("Escreva o nome do arquivo");
-    String nome = sc.next();
+    String path = sc.next();
 
 
     BufferedWriter buffWrite = new BufferedWriter(new FileWriter(PATH_BASICO + path + EXTENSAO));
     String linha = "";
 
-    System.out.println("Escreva algo ");
-    linha = sc.nextLine();
+    System.out.println("Escreva algo: ");
+    linha = sc.next();
     buffWrite.append(linha + "\n");
     buffWrite.close();
+    sc.close();
 
     
   }
